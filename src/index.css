@@ -1,0 +1,53 @@
+:root {
+  color: #f7f2e8;
+  background:
+    radial-gradient(circle at top, #194161 0%, #0d2233 38%, #06111a 100%);
+  color-scheme: dark;
+  font-family: 'Segoe UI Variable Display', 'Bahnschrift', 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-panel: rgba(6, 17, 27, 0.72);
+  --bg-panel-strong: rgba(8, 22, 35, 0.92);
+  --border-soft: rgba(144, 205, 244, 0.2);
+  --text-main: #f7f2e8;
+  --text-dim: rgba(247, 242, 232, 0.72);
+  --accent-gold: #f4c75f;
+  --accent-blue: #56a8ff;
+  --accent-green: #39b58f;
+  --accent-coral: #ff7c5c;
+  --shadow-lg: 0 24px 70px rgba(0, 0, 0, 0.28);
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+code {
+  font-family: 'Cascadia Code', 'Consolas', monospace;
+}
